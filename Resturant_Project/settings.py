@@ -52,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Resturant_Project.urls'
+AUTH_USER_MODEL = 'accounts.Account' 
 
 TEMPLATES = [
     {
